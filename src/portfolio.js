@@ -37,9 +37,9 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/cph0r/",
   gmail: "chiragphor19@gmail.com",
   gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  facebook: "https://www.facebook.com/chiragphor",
+  medium: "https://medium.com/@cph0r",
+  stackoverflow: "https://stackoverflow.com/users/10422806/cph0r",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -364,8 +364,8 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+91-8816086525",
-  email_address: "saadpasta70@gmail.com"
-};
+  email_address: "chiragphor19@gmail.com"
+
 
 // Twitter Section
 

@@ -23,7 +23,7 @@ const greeting = {
   username: "Chirag Phor",
   title: "Hi all, I'm Chirag Phor",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript. Equipped with a diverse and promising skill set. Proficient in an assortment of technologies. Able to effectively self manage in independent projects, as well as collaborate in team setting"
   ),
   resumeLink:
     "https://drive.google.com/file/d/1XLEgy4fl-dXaoR09Ej-QeTSJ7Wz3B3h_/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/cphor",
-  linkedin: "https://www.linkedin.com/in/cph0r/",
+  github: "https://github.com/cph0r",
+  linkedin: "https://in.linkedin.com/in/chirag4/",
   gmail: "chiragphor19@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
+  // gitlab: "https://gitlab.com/saadpasta",
   facebook: "https://www.facebook.com/chiragphor",
-  medium: "https://medium.com/@cph0r",
-  stackoverflow: "https://stackoverflow.com/users/10422806/cph0r",
+  // medium: "https://medium.com/@cph0r",
+  stackoverflow: "https://stackoverflow.com/users/14067223/chirag-phor",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -126,23 +126,12 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
+      schoolName: "VIT University",
       logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
-    },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      subHeader: "Bachelor of Technology in Computer Science",
+      duration: "July 2016 - January 2020",
+      desc: "CGPA: 8.5",
+      descBullets: []
     }
   ]
 };
@@ -153,16 +142,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Backend/System Design", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "Frontend/Ui design",
+      progressPercentage: "60%"
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "80%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,29 +163,40 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
+      role: "Software Engineer 2",
+      company: "C2FO",
       companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      date: "Oct 2021 – Present",
+      desc: "C2FO is a working capital platform that enabled suppliers to receive early payment on their invoices, at discounts that they determined.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Tech Stack - Typescript, Node, Jest, React, AWS",
+        "Used various ideas from distributed computing, large-scale design, real-time data processing, data storage to solve challenging problems",
+        "Created a TWA app for the website and published it on playstore",
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
+      role: "Software Engineer 1",
+      company: "Udaan",
       companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2020 – Oct 2021",
+      desc: "Udaan is a B2B trade platform that brings manufacturers, traders, retailers, and wholesalers into a single platform.",
+      descBullets: [
+        "Tech Stack - Python, Django, Postgres, Redis, Azure",
+        "Gained significant expertise in popular back end technologies like AWS and PostgreSQL",
+        "Individually developed and scaled the entire backend for HRM application along with maximising application's efficiency",
+      ]
     },
     {
       role: "Software Engineer Intern",
-      company: "Airbnb",
+      company: "HealthCloud AI",
       companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Jan 2020 – Jun 2020",
+      desc: "Healthcloud AI developed an AI based Medical Assistant which automates the health care processes keeping track of users health and symptoms.",
+      descBullets: [
+        "Developed front end for the web app version of the mobile app independently using Python and Flasks",
+        "Managed time sensitive updates, including content changes and database upgrades",
+        "Designed, wrote, debugged web applications with complete accuracy"
+      ]
     }
   ]
 };
@@ -371,7 +371,7 @@ const contactInfo = {
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "ph0rgasm", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 

@@ -213,28 +213,39 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "Some awesome projects that I did for the companies I worked for",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/pwaLogo.webp"),
+      projectName: "TWA",
+      projectDesc: "While employed at C2FO, the company aimed to expand its presence, and to achieve this, they sought to have an Android app available on the Play Store. However, creating a full-fledged Android app would have been a time-consuming and resource-intensive endeavor. The solution to this challenge was the development of a Trusted Web Activity (TWA) application for the company's website. I created and deployed the TWA app for C2FO on playstore",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
+          name: "Visit Playstore",
+          url: "https://play.google.com/store/apps/details?id=com.c2fo.app.twa&pcampaignid=web_share"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/nextuLogo.png"),
+      projectName: "Datadog",
+      projectDesc: "C2FO required comprehensive logging and monitoring for their applications, and Datadog proved to be the ideal solution. I gained a high level of proficiency in using the platform, enabling me to design dashboards, set up monitors, and seamlessly integrate it with Slack and OpsGenie, as well as perform log analysis.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.datadoghq.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/lol5.webp"),
+      projectName: "GPT Integration",
+      projectDesc: "Being a global company C2FO always struggled with translation on their website, previouly it was handled by smartling a tool that does translations by human volunteers, this wa error prone, time consuming and costly process. For this I proposed using LLM for translations of emails and website content using Chat Gpt's API's",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://platform.openai.com/docs/introduction"
         }
       ]
     }

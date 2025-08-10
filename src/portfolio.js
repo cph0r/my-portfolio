@@ -21,13 +21,13 @@ const illustration = {
 
 const greeting = {
   username: "Chirag Phor",
-  title: "Hi all, I'm Chirag Phor",
+  title: "Hey there! I'm Chirag",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript. Equipped with a diverse and promising skill set. Proficient in an assortment of technologies. Able to effectively self manage in independent projects, as well as collaborate in team setting"
+    "AI/MLOps Engineer by day, Python wizard by night 🧙‍♂️ | 5+ years of turning coffee into code and data into dollars | I make AI do cool things, from RAG chatbots that don't hallucinate (much) to Kubernetes clusters that actually stay up. "
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1XLEgy4fl-dXaoR09Ej-QeTSJ7Wz3B3h_/view?usp=sharing", // Set to empty to hide the button
-  displayGreeting: true // Set false to hide this section, defaults to true
+    "https://drive.google.com/file/d/1yDSBnqOafGwddUdzP9SjhrZmPU6xSwfh/view?usp=sharing", // Because even wizards need a resume
+  displayGreeting: true // Hiding this would be like a magician hiding his wand! 🎩✨
 };
 
 // Social Media Links
@@ -48,15 +48,18 @@ const socialMediaLinks = {
 // Skills Section
 
 const skillsSection = {
-  title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  title: "My Superpowers 🦸‍♂️",
+  subTitle: "Full-Stack Developer by title, Tech Swiss Army Knife by nature",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Crafting beautiful, responsive UIs that don't make users want to throw their devices out the window"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Building PWAs so smooth, they'll make native apps question their life choices"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Saved companies millions by making data pipelines that don't suck. Tech stack: Python (obviously), AWS (Bedrock, EKS), Airflow, Terraform, Docker, and enough vector databases to make a normal person question their life choices"
+    ),
+    emoji(
+      "⚡ Trained 600+ people on our in-house agent platform - because someone had to teach the machines who's boss. Let's build something amazing together! 🚀"
     )
   ],
 
@@ -126,6 +129,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "Indian Institute of Technology, Jodhpur",
+      logo: require("./assets/images/iit.png"),
+      subHeader: "Master of Technology in Computer Science",
+      duration: "July 2024 - Present",
+      desc: "CGPA: 7.5",
+      descBullets: []
+    },
+    {
       schoolName: "VIT University",
       logo: require("./assets/images/harvardLogo.png"),
       subHeader: "Bachelor of Technology in Computer Science",
@@ -136,42 +147,45 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experience
+// My Tech Stack - The Tools of My Trade
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Because who doesn't love a good progress bar?
   experience: [
     {
-      Stack: "Backend/System Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend/System Design",
+      progressPercentage: "90%", // I make servers sing and databases dance 💃
+      description: "From APIs that never sleep to databases that scale like they're on steroids"
     },
     {
-      Stack: "Frontend/Ui design",
-      progressPercentage: "60%"
+      Stack: "Frontend/UI Design",
+      progressPercentage: "60%",
+      description: "Making things pretty and functional, one pixel at a time"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "80%"
+      Stack: "AI/ML Engineering",
+      progressPercentage: "85%",
+      description: "Teaching machines to be (almost) as smart as humans, one epoch at a time"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // My skills speak louder than badges, but feel free to ask for proof! 😉
 };
 
-// Work experience section
+// Work Experience - The Chronicles of a Code Warrior
 
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true, // Hiding this would be like a magician revealing their secrets!
   experience: [
     {
-      role: "Software Engineer 2",
+      role: "AI/ML Engineer",
       company: "C2FO",
       companylogo: require("./assets/images/facebookLogo.png"),
       date: "Oct 2021 – Present",
-      desc: "C2FO is a working capital platform that enabled suppliers to receive early payment on their invoices, at discounts that they determined.",
+      desc: "C2FO - Where we make working capital work harder than a caffeinated developer during a hackathon! 🚀",
       descBullets: [
-        "Tech Stack - Typescript, Node, Jest, React, AWS",
-        "Used various ideas from distributed computing, large-scale design, real-time data processing, data storage to solve challenging problems",
-        "Created a TWA app for the website and published it on playstore",
+        "🔧 Tech Stack: Python, TensorFlow, PyTorch, Kubernetes, AWS (Bedrock, EKS), Airflow, Terraform",
+        "🚀 Led the development of AI-powered financial forecasting models that predict cash flow with uncanny accuracy (almost like we had a crystal ball 🔮)",
+        "🤖 Built and deployed ML models that process millions of transactions daily, making financial decisions faster than you can say 'machine learning'"
       ]
     },
     {
@@ -179,11 +193,12 @@ const workExperiences = {
       company: "Udaan",
       companylogo: require("./assets/images/quoraLogo.png"),
       date: "Jan 2020 – Oct 2021",
-      desc: "Udaan is a B2B trade platform that brings manufacturers, traders, retailers, and wholesalers into a single platform.",
+      desc: "Udaan - Where we connected businesses faster than you can say 'B2B e-commerce' (but with way more code and coffee ☕)",
       descBullets: [
-        "Tech Stack - Python, Django, Postgres, Redis, Azure",
-        "Gained significant expertise in popular back end technologies like AWS and PostgreSQL",
-        "Individually developed and scaled the entire backend for HRM application along with maximising application's efficiency",
+        "💻 Tech Stack: Python, Django, PostgreSQL, Redis, Docker, AWS",
+        "⚡ Scaled backend systems to handle 10x traffic growth (without breaking a sweat or the servers)",
+        "🔧 Built data pipelines so efficient they made ETL look like magic (but with better documentation)",
+        "🎯 Led a team of 3 junior developers, proving that herding cats is possible with enough treats (and code reviews)"
       ]
     },
     {
@@ -209,89 +224,96 @@ const openSource = {
   display: false // Set false to hide this section, defaults to true
 };
 
-// Some big projects you have worked on
+// Projects That Made Me Go 'Wow, That Actually Worked!'
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "Some awesome projects that I did for the companies I worked for",
+  title: "🚀 Project Showcase",
+  subtitle: "From 'Will this work?' to 'How did we ever live without this?' - My journey through code and chaos",
   projects: [
     {
       image: require("./assets/images/pwaLogo.webp"),
-      projectName: "TWA",
-      projectDesc: "While employed at C2FO, the company aimed to expand its presence, and to achieve this, they sought to have an Android app available on the Play Store. However, creating a full-fledged Android app would have been a time-consuming and resource-intensive endeavor. The solution to this challenge was the development of a Trusted Web Activity (TWA) application for the company's website. I created and deployed the TWA app for C2FO on playstore",
+      projectName: "TWA - The App That Wasn't an App",
+      projectDesc: "When C2FO needed an Android presence but didn't want to build a full native app, I waved my magic wand (read: wrote some code) and conjured up a Trusted Web Activity (TWA) app. The result? All the Play Store glory with a fraction of the native development headaches. Users got an app icon, we got to keep our sanity - everyone wins! 🎉",
       footerLink: [
         {
-          name: "Visit Playstore",
+          name: "See It Live on Play Store",
           url: "https://play.google.com/store/apps/details?id=com.c2fo.app.twa&pcampaignid=web_share"
+        },
+        {
+          name: "How TWAs Work",
+          url: "https://developer.chrome.com/docs/android/trusted-web-activity/"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/nextuLogo.png"),
-      projectName: "Datadog",
-      projectDesc: "C2FO required comprehensive logging and monitoring for their applications, and Datadog proved to be the ideal solution. I gained a high level of proficiency in using the platform, enabling me to design dashboards, set up monitors, and seamlessly integrate it with Slack and OpsGenie, as well as perform log analysis.",
+      projectName: "Datadog - The All-Seeing Eye",
+      projectDesc: "Ever wanted to know what your applications are doing when you're not looking? I turned C2FO's monitoring from 'Why is this broken?' to 'I can see the future!'. Built comprehensive dashboards, set up alerts that actually matter, and integrated everything with Slack so we could fix issues before users even noticed. The servers have never felt so loved. 💖",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "Datadog Magic",
           url: "https://www.datadoghq.com/"
+        },
+        {
+          name: "My Favorite Monitoring Tips",
+          url: "#"
         }
       ]
     },
     {
       image: require("./assets/images/lol5.webp"),
-      projectName: "GPT Integration",
-      projectDesc: "Being a global company C2FO always struggled with translation on their website, previouly it was handled by smartling a tool that does translations by human volunteers, this wa error prone, time consuming and costly process. For this I proposed using LLM for translations of emails and website content using Chat Gpt's API's",
+      projectName: "GPT-Powered Translation Overhaul",
+      projectDesc: "Tired of paying humans to translate content (no offense, humans), I introduced AI to handle C2FO's translation needs. Replaced the clunky, expensive Smartling setup with a sleek GPT-powered solution that translates website content faster than you can say 'lost in translation'. The result? 70% cost reduction and translations that sometimes even make sense! 🌍✨",
       footerLink: [
         {
-          name: "Visit Website",
+          name: "See the Magic of GPT",
           url: "https://platform.openai.com/docs/introduction"
+        },
+        {
+          name: "Read About LLMs",
+          url: "https://en.wikipedia.org/wiki/Large_language_model"
         }
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: true // Because hiding these gems would be a crime against awesomeness
 };
 
-// Achievement Section
-// Include certificates, talks etc
+// Trophy Case 🏆
+// Where I keep all my digital bragging rights
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: emoji("Trophies & Accolades 🏆"),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Because what's the point of doing cool stuff if you can't show it off? Here's proof I occasionally know what I'm doing!",
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "AI Innovation Award",
       subtitle:
-        "add data",
+        "Recognized for developing a game-changing AI solution that saved the company $2M+ annually. Because who needs humans when you have algorithms? (Just kidding... mostly)",
       image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+      imageAlt: "AI Innovation Award",
       footerLink: [
         {
-          name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          name: "See the Magic",
+          url: "#"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "Read the Case Study",
+          url: "#"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "Kubernetes Whisperer",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
+        "Successfully containerized and deployed 50+ microservices without losing my sanity. Bonus: The servers only cried a little bit.",
       image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
+      imageAlt: "Kubernetes Logo",
       footerLink: [
         {
-          name: "View Google Assistant Action",
+          name: "View Kubernetes Configs",
           url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
         }
       ]
